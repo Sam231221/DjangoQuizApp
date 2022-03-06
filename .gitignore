@@ -1,0 +1,7 @@
+.env
+Pipfile
+__pycache__/
+db.sqlite3
+activate.txt
+latest.dump
+my_project_visualized.png
