@@ -1,0 +1,709 @@
+[
+{
+    "model": "MQuestions.question",
+    "pk": 1,
+    "fields": {
+        "text": "What does HTML stand for?",
+        "quiz": 1,
+        "created": "2022-03-06T10:52:45.135Z",
+        "published_on": "2022-03-06T10:52:45.135Z",
+        "updated_on": "2022-03-06T11:10:35.946Z"
+    }
+},
+{
+    "model": "MQuestions.question",
+    "pk": 2,
+    "fields": {
+        "text": "Who is making the Web standards?",
+        "quiz": 1,
+        "created": "2022-03-06T11:12:02.863Z",
+        "published_on": "2022-03-06T11:12:02.863Z",
+        "updated_on": "2022-03-06T11:35:14.093Z"
+    }
+},
+{
+    "model": "MQuestions.question",
+    "pk": 4,
+    "fields": {
+        "text": "An iframe is used to display a web page within a web page.",
+        "quiz": 1,
+        "created": "2022-03-06T11:14:55.862Z",
+        "published_on": "2022-03-06T11:14:55.862Z",
+        "updated_on": "2022-03-06T11:39:45.547Z"
+    }
+},
+{
+    "model": "MQuestions.question",
+    "pk": 5,
+    "fields": {
+        "text": "How can you open a link in a new tab/browser window?",
+        "quiz": 1,
+        "created": "2022-03-06T11:17:05.486Z",
+        "published_on": "2022-03-06T11:17:05.486Z",
+        "updated_on": "2022-03-06T12:20:20.553Z"
+    }
+},
+{
+    "model": "MQuestions.question",
+    "pk": 6,
+    "fields": {
+        "text": "How can you make a numbered list?",
+        "quiz": 1,
+        "created": "2022-03-06T11:19:53.644Z",
+        "published_on": "2022-03-06T11:19:53.644Z",
+        "updated_on": "2022-03-06T11:41:23.452Z"
+    }
+},
+{
+    "model": "MQuestions.question",
+    "pk": 7,
+    "fields": {
+        "text": "Which one is NOT a legal variable name?",
+        "quiz": 2,
+        "created": "2022-03-06T11:24:00.502Z",
+        "published_on": "2022-03-06T11:24:00.502Z",
+        "updated_on": "2022-03-06T11:24:00.502Z"
+    }
+},
+{
+    "model": "MQuestions.question",
+    "pk": 8,
+    "fields": {
+        "text": "How do you create a variable with the floating number 2.8?",
+        "quiz": 2,
+        "created": "2022-03-06T11:25:07.828Z",
+        "published_on": "2022-03-06T11:25:07.828Z",
+        "updated_on": "2022-03-06T11:25:07.828Z"
+    }
+},
+{
+    "model": "MQuestions.question",
+    "pk": 9,
+    "fields": {
+        "text": "What is the correct syntax to output the type of a variable or object in Python?",
+        "quiz": 2,
+        "created": "2022-03-06T11:26:23.587Z",
+        "published_on": "2022-03-06T11:26:23.587Z",
+        "updated_on": "2022-03-06T11:26:23.587Z"
+    }
+},
+{
+    "model": "MQuestions.question",
+    "pk": 10,
+    "fields": {
+        "text": "Which method can be used to remove any whitespace from both the beginning and the end of a string?",
+        "quiz": 2,
+        "created": "2022-03-06T11:27:54.582Z",
+        "published_on": "2022-03-06T11:27:54.582Z",
+        "updated_on": "2022-03-06T11:27:54.582Z"
+    }
+},
+{
+    "model": "MQuestions.question",
+    "pk": 11,
+    "fields": {
+        "text": "Which method can be used to return a string in upper case letters?",
+        "quiz": 2,
+        "created": "2022-03-06T11:29:53.682Z",
+        "published_on": "2022-03-06T11:29:53.683Z",
+        "updated_on": "2022-03-06T11:29:53.683Z"
+    }
+},
+{
+    "model": "MQuestions.question",
+    "pk": 12,
+    "fields": {
+        "text": "Which of these collections defines a LIST?",
+        "quiz": 2,
+        "created": "2022-03-06T11:31:45.969Z",
+        "published_on": "2022-03-06T11:31:45.969Z",
+        "updated_on": "2022-03-06T11:31:45.969Z"
+    }
+},
+{
+    "model": "MQuestions.question",
+    "pk": 13,
+    "fields": {
+        "text": "HTML comments start with <!- and end with ->",
+        "quiz": 1,
+        "created": "2022-03-06T11:38:54.666Z",
+        "published_on": "2022-03-06T11:38:54.666Z",
+        "updated_on": "2022-03-06T11:38:54.666Z"
+    }
+},
+{
+    "model": "MQuestions.question",
+    "pk": 14,
+    "fields": {
+        "text": "Block elements are normally displayed without starting a new line.",
+        "quiz": 1,
+        "created": "2022-03-06T11:39:18.772Z",
+        "published_on": "2022-03-06T11:39:18.772Z",
+        "updated_on": "2022-03-06T11:39:18.772Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 1,
+    "fields": {
+        "text": "Hyperlinks and Tool Markup Language",
+        "correct": false,
+        "question": 1,
+        "created": "2022-03-06T10:52:45.136Z",
+        "published_on": "2022-03-06T10:52:45.137Z",
+        "updated_on": "2022-03-06T10:52:45.137Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 2,
+    "fields": {
+        "text": "Home Tool Markup Language",
+        "correct": false,
+        "question": 1,
+        "created": "2022-03-06T10:52:45.139Z",
+        "published_on": "2022-03-06T10:52:45.139Z",
+        "updated_on": "2022-03-06T10:52:45.139Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 3,
+    "fields": {
+        "text": "Hyperlinks Text Markup Language",
+        "correct": false,
+        "question": 1,
+        "created": "2022-03-06T10:52:45.140Z",
+        "published_on": "2022-03-06T10:52:45.140Z",
+        "updated_on": "2022-03-06T11:10:36.000Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 4,
+    "fields": {
+        "text": "Hypertext Markup Language",
+        "correct": true,
+        "question": 1,
+        "created": "2022-03-06T11:10:36.001Z",
+        "published_on": "2022-03-06T11:10:36.001Z",
+        "updated_on": "2022-03-06T11:10:36.001Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 5,
+    "fields": {
+        "text": "The World Wide Web Consortium",
+        "correct": false,
+        "question": 2,
+        "created": "2022-03-06T11:12:02.915Z",
+        "published_on": "2022-03-06T11:12:02.915Z",
+        "updated_on": "2022-03-06T11:12:02.915Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 6,
+    "fields": {
+        "text": "Google",
+        "correct": false,
+        "question": 2,
+        "created": "2022-03-06T11:12:02.916Z",
+        "published_on": "2022-03-06T11:12:02.916Z",
+        "updated_on": "2022-03-06T11:12:02.916Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 7,
+    "fields": {
+        "text": "Microsoft",
+        "correct": false,
+        "question": 2,
+        "created": "2022-03-06T11:12:02.917Z",
+        "published_on": "2022-03-06T11:12:02.917Z",
+        "updated_on": "2022-03-06T11:12:02.917Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 8,
+    "fields": {
+        "text": "Mozilla",
+        "correct": true,
+        "question": 2,
+        "created": "2022-03-06T11:12:02.918Z",
+        "published_on": "2022-03-06T11:12:02.918Z",
+        "updated_on": "2022-03-06T11:35:14.120Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 13,
+    "fields": {
+        "text": "True",
+        "correct": true,
+        "question": 4,
+        "created": "2022-03-06T11:14:55.882Z",
+        "published_on": "2022-03-06T11:14:55.882Z",
+        "updated_on": "2022-03-06T11:38:15.985Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 14,
+    "fields": {
+        "text": "False",
+        "correct": false,
+        "question": 4,
+        "created": "2022-03-06T11:14:55.883Z",
+        "published_on": "2022-03-06T11:14:55.883Z",
+        "updated_on": "2022-03-06T11:38:15.986Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 15,
+    "fields": {
+        "text": "iframe doesn't exist",
+        "correct": false,
+        "question": 4,
+        "created": "2022-03-06T11:14:55.883Z",
+        "published_on": "2022-03-06T11:14:55.883Z",
+        "updated_on": "2022-03-06T11:38:15.987Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 16,
+    "fields": {
+        "text": "It depends",
+        "correct": false,
+        "question": 4,
+        "created": "2022-03-06T11:14:55.883Z",
+        "published_on": "2022-03-06T11:14:55.883Z",
+        "updated_on": "2022-03-06T11:38:15.987Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 17,
+    "fields": {
+        "text": "A href=\"url\" target=\"_blank\"",
+        "correct": false,
+        "question": 5,
+        "created": "2022-03-06T11:17:05.488Z",
+        "published_on": "2022-03-06T11:17:05.488Z",
+        "updated_on": "2022-03-06T12:20:20.555Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 18,
+    "fields": {
+        "text": "a href=\"url\" new",
+        "correct": false,
+        "question": 5,
+        "created": "2022-03-06T11:17:05.490Z",
+        "published_on": "2022-03-06T11:17:05.490Z",
+        "updated_on": "2022-03-06T12:19:54.163Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 19,
+    "fields": {
+        "text": "a href=\"url\" target=\"new\"",
+        "correct": false,
+        "question": 5,
+        "created": "2022-03-06T11:17:05.491Z",
+        "published_on": "2022-03-06T11:17:05.491Z",
+        "updated_on": "2022-03-06T12:19:54.164Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 20,
+    "fields": {
+        "text": "None of these",
+        "correct": true,
+        "question": 5,
+        "created": "2022-03-06T11:17:05.492Z",
+        "published_on": "2022-03-06T11:17:05.492Z",
+        "updated_on": "2022-03-06T12:19:54.164Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 21,
+    "fields": {
+        "text": "ol",
+        "correct": false,
+        "question": 6,
+        "created": "2022-03-06T11:19:53.679Z",
+        "published_on": "2022-03-06T11:19:53.679Z",
+        "updated_on": "2022-03-06T11:41:23.479Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 22,
+    "fields": {
+        "text": "ul",
+        "correct": false,
+        "question": 6,
+        "created": "2022-03-06T11:19:53.679Z",
+        "published_on": "2022-03-06T11:19:53.679Z",
+        "updated_on": "2022-03-06T11:41:23.482Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 23,
+    "fields": {
+        "text": "li",
+        "correct": false,
+        "question": 6,
+        "created": "2022-03-06T11:19:53.680Z",
+        "published_on": "2022-03-06T11:19:53.680Z",
+        "updated_on": "2022-03-06T11:41:23.483Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 24,
+    "fields": {
+        "text": "Neither of them",
+        "correct": true,
+        "question": 6,
+        "created": "2022-03-06T11:19:53.680Z",
+        "published_on": "2022-03-06T11:19:53.680Z",
+        "updated_on": "2022-03-06T11:41:23.483Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 25,
+    "fields": {
+        "text": "_myvar",
+        "correct": false,
+        "question": 7,
+        "created": "2022-03-06T11:24:00.542Z",
+        "published_on": "2022-03-06T11:24:00.542Z",
+        "updated_on": "2022-03-06T11:24:00.542Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 26,
+    "fields": {
+        "text": "Myvar",
+        "correct": true,
+        "question": 7,
+        "created": "2022-03-06T11:24:00.542Z",
+        "published_on": "2022-03-06T11:24:00.542Z",
+        "updated_on": "2022-03-06T11:24:00.542Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 27,
+    "fields": {
+        "text": "myvar",
+        "correct": false,
+        "question": 7,
+        "created": "2022-03-06T11:24:00.543Z",
+        "published_on": "2022-03-06T11:24:00.543Z",
+        "updated_on": "2022-03-06T11:24:00.543Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 28,
+    "fields": {
+        "text": "my_var",
+        "correct": false,
+        "question": 7,
+        "created": "2022-03-06T11:24:00.543Z",
+        "published_on": "2022-03-06T11:24:00.543Z",
+        "updated_on": "2022-03-06T11:24:00.543Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 29,
+    "fields": {
+        "text": "x = 2.8",
+        "correct": false,
+        "question": 8,
+        "created": "2022-03-06T11:25:07.835Z",
+        "published_on": "2022-03-06T11:25:07.835Z",
+        "updated_on": "2022-03-06T11:25:07.835Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 30,
+    "fields": {
+        "text": "x = float(2.8)",
+        "correct": false,
+        "question": 8,
+        "created": "2022-03-06T11:25:07.836Z",
+        "published_on": "2022-03-06T11:25:07.836Z",
+        "updated_on": "2022-03-06T11:25:07.836Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 31,
+    "fields": {
+        "text": "Both the other answers are correct",
+        "correct": true,
+        "question": 8,
+        "created": "2022-03-06T11:25:07.837Z",
+        "published_on": "2022-03-06T11:25:07.837Z",
+        "updated_on": "2022-03-06T11:25:07.837Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 32,
+    "fields": {
+        "text": "print(typeof(x))",
+        "correct": true,
+        "question": 9,
+        "created": "2022-03-06T11:26:23.641Z",
+        "published_on": "2022-03-06T11:26:23.641Z",
+        "updated_on": "2022-03-06T11:26:23.641Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 33,
+    "fields": {
+        "text": "print(typeOf(x))",
+        "correct": false,
+        "question": 9,
+        "created": "2022-03-06T11:26:23.642Z",
+        "published_on": "2022-03-06T11:26:23.642Z",
+        "updated_on": "2022-03-06T11:26:23.642Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 34,
+    "fields": {
+        "text": "print(TypeOf(x))",
+        "correct": false,
+        "question": 9,
+        "created": "2022-03-06T11:26:23.642Z",
+        "published_on": "2022-03-06T11:26:23.642Z",
+        "updated_on": "2022-03-06T11:26:23.642Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 35,
+    "fields": {
+        "text": "print(type(x))",
+        "correct": false,
+        "question": 9,
+        "created": "2022-03-06T11:26:23.642Z",
+        "published_on": "2022-03-06T11:26:23.642Z",
+        "updated_on": "2022-03-06T11:26:23.642Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 36,
+    "fields": {
+        "text": "ptrim()",
+        "correct": false,
+        "question": 10,
+        "created": "2022-03-06T11:27:54.589Z",
+        "published_on": "2022-03-06T11:27:54.589Z",
+        "updated_on": "2022-03-06T11:27:54.589Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 37,
+    "fields": {
+        "text": "len()",
+        "correct": false,
+        "question": 10,
+        "created": "2022-03-06T11:27:54.591Z",
+        "published_on": "2022-03-06T11:27:54.591Z",
+        "updated_on": "2022-03-06T11:27:54.591Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 38,
+    "fields": {
+        "text": "split()",
+        "correct": false,
+        "question": 10,
+        "created": "2022-03-06T11:27:54.591Z",
+        "published_on": "2022-03-06T11:27:54.591Z",
+        "updated_on": "2022-03-06T11:27:54.591Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 39,
+    "fields": {
+        "text": "trim()",
+        "correct": true,
+        "question": 10,
+        "created": "2022-03-06T11:27:54.592Z",
+        "published_on": "2022-03-06T11:27:54.592Z",
+        "updated_on": "2022-03-06T11:27:54.592Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 40,
+    "fields": {
+        "text": "uppercase()",
+        "correct": false,
+        "question": 11,
+        "created": "2022-03-06T11:29:53.699Z",
+        "published_on": "2022-03-06T11:29:53.699Z",
+        "updated_on": "2022-03-06T11:29:53.699Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 41,
+    "fields": {
+        "text": "toUppercase()",
+        "correct": false,
+        "question": 11,
+        "created": "2022-03-06T11:29:53.700Z",
+        "published_on": "2022-03-06T11:29:53.700Z",
+        "updated_on": "2022-03-06T11:29:53.700Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 42,
+    "fields": {
+        "text": "upper()",
+        "correct": true,
+        "question": 11,
+        "created": "2022-03-06T11:29:53.701Z",
+        "published_on": "2022-03-06T11:29:53.701Z",
+        "updated_on": "2022-03-06T11:29:53.701Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 43,
+    "fields": {
+        "text": "touppercase()",
+        "correct": false,
+        "question": 11,
+        "created": "2022-03-06T11:29:53.701Z",
+        "published_on": "2022-03-06T11:29:53.701Z",
+        "updated_on": "2022-03-06T11:29:53.701Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 44,
+    "fields": {
+        "text": "{\"name\": \"apple\", \"color\": \"green\"}",
+        "correct": false,
+        "question": 12,
+        "created": "2022-03-06T11:31:46.002Z",
+        "published_on": "2022-03-06T11:31:46.002Z",
+        "updated_on": "2022-03-06T11:31:46.002Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 45,
+    "fields": {
+        "text": "(\"apple\", \"banana\", \"cherry\")",
+        "correct": false,
+        "question": 12,
+        "created": "2022-03-06T11:31:46.003Z",
+        "published_on": "2022-03-06T11:31:46.003Z",
+        "updated_on": "2022-03-06T11:31:46.003Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 46,
+    "fields": {
+        "text": "{\"apple\", \"banana\", \"cherry\"}",
+        "correct": false,
+        "question": 12,
+        "created": "2022-03-06T11:31:46.003Z",
+        "published_on": "2022-03-06T11:31:46.003Z",
+        "updated_on": "2022-03-06T11:31:46.003Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 47,
+    "fields": {
+        "text": "[\"apple\", \"banana\", 1]",
+        "correct": true,
+        "question": 12,
+        "created": "2022-03-06T11:31:46.003Z",
+        "published_on": "2022-03-06T11:31:46.003Z",
+        "updated_on": "2022-03-06T11:31:46.003Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 48,
+    "fields": {
+        "text": "True",
+        "correct": false,
+        "question": 13,
+        "created": "2022-03-06T11:38:54.687Z",
+        "published_on": "2022-03-06T11:38:54.687Z",
+        "updated_on": "2022-03-06T11:38:54.688Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 49,
+    "fields": {
+        "text": "False",
+        "correct": true,
+        "question": 13,
+        "created": "2022-03-06T11:38:54.690Z",
+        "published_on": "2022-03-06T11:38:54.690Z",
+        "updated_on": "2022-03-06T11:38:54.690Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 50,
+    "fields": {
+        "text": "True",
+        "correct": true,
+        "question": 14,
+        "created": "2022-03-06T11:39:18.783Z",
+        "published_on": "2022-03-06T11:39:18.783Z",
+        "updated_on": "2022-03-06T11:39:18.783Z"
+    }
+},
+{
+    "model": "MQuestions.answer",
+    "pk": 51,
+    "fields": {
+        "text": "False",
+        "correct": false,
+        "question": 14,
+        "created": "2022-03-06T11:39:18.784Z",
+        "published_on": "2022-03-06T11:39:18.784Z",
+        "updated_on": "2022-03-06T11:39:18.784Z"
+    }
+}
+]

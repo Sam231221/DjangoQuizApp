@@ -60,15 +60,26 @@ TEMPLATES = [
 WSGI_APPLICATION = 'Djangoquiz.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/4.0/ref/settings/#databases
+DATABASES = {
+#When we want to use database like Postgres
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': 'djangoquiz',
+            'USER':  'postgres',
+            'PASSWORD': 'ProgrammerGodRobo123',
+            'HOST': '127.0.0.1',
+            'PORT': '5432',
+        }
+}
 
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+'''
 
 
 # Password validation

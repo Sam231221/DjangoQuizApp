@@ -1,0 +1,32 @@
+[
+{
+    "model": "MQuiz.quiz",
+    "pk": 1,
+    "fields": {
+        "name": "HTML",
+        "topic": "html",
+        "imageurl": "https://res.cloudinary.com/dcgrv6shk/image/upload/v1646568135/mediafiles/images/html_z5clcp.jpg",
+        "number_of_questions": 7,
+        "published_on": "2022-03-06T10:51:13.031Z",
+        "updated_on": "2022-03-06T12:21:56.278Z",
+        "time": 1,
+        "required_score_to_pass": 80,
+        "difficluty": "medium"
+    }
+},
+{
+    "model": "MQuiz.quiz",
+    "pk": 2,
+    "fields": {
+        "name": "Python",
+        "topic": "python",
+        "imageurl": "https://res.cloudinary.com/dcgrv6shk/image/upload/v1646568134/mediafiles/images/python_h77qom.jpg",
+        "number_of_questions": 6,
+        "published_on": "2022-03-06T11:20:45.912Z",
+        "updated_on": "2022-03-06T12:02:31.771Z",
+        "time": 1,
+        "required_score_to_pass": 80,
+        "difficluty": "medium"
+    }
+}
+]
