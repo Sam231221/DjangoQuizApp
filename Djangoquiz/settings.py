@@ -60,17 +60,30 @@ TEMPLATES = [
 WSGI_APPLICATION = 'Djangoquiz.wsgi.application'
 
 
-DATABASES = {
-#When we want to use database like Postgres
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'NAME': 'djangoquiz',
-            'USER':  'postgres',
-            'PASSWORD': 'ProgrammerGodRobo123',
-            'HOST': '127.0.0.1',
-            'PORT': '5432',
-        }
-}
+if DEBUG:
+    DATABASES = {
+    #When we want to use database like Postgres
+            'default': {
+                'ENGINE': 'django.db.backends.postgresql',
+                'NAME': 'djangoquiz',
+                'USER':  'postgres',
+                'PASSWORD': 'ProgrammerGodRobo123',
+                'HOST': 'localhost',
+                'PORT': '5432',
+            }
+    }
+else:
+    DATABASES = {
+    #When we want to use database like Postgres
+            'default': {
+                'ENGINE': 'django.db.backends.postgresql',
+                'NAME': 'djangoquiz',
+                'USER':  'postgres',
+                'PASSWORD': 'ProgrammerGodRobo123',
+                'HOST': 'localhost',
+                'PORT': '5432',
+            }
+    }        
 
 '''
 DATABASES = {
