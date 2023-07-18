@@ -11,7 +11,7 @@ DIFF_CHOICES = (
 class Quiz(models.Model):
     name = models.CharField(max_length=120)
     topic = models.CharField(max_length=120)
-    imageurl = models.CharField(max_length=400,null=True)
+    image = models.ImageField(max_length=400,null=True)
     number_of_questions = models.IntegerField()
     published_on = models.DateTimeField(auto_now_add=True)
     updated_on = models.DateTimeField(auto_now = True)

@@ -24,6 +24,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+      'storages',
     'MQuestions',
     'MQuiz',
     'MResults',
@@ -117,16 +118,34 @@ USE_I18N = True
 
 USE_TZ = True
 
+AWS_ACCESS_KEY_ID = 'AKIA5GA4XYZPA47M5G75'
+AWS_SECRET_ACCESS_KEY = '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'
+AWS_STORAGE_BUCKET_NAME = 'djangoquiz'
+AWS_DEFAULT_ACL = None
+AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.ap-south-1.amazonaws.com'
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/4.0/howto/static-files/
-MEDIA_URL = '/mediafiles/'
-MEDIA_ROOT =os.path.join(BASE_DIR, 'staticfiles/mediafiles')
-STATIC_URL = '/staticfiles/'
-STATICFILES_DIRS=[
-    os.path.join(BASE_DIR, 'staticfiles')
-]
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATIC_LOCATION = 'static'
+STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATIC_LOCATION}/'
+STATICFILES_STORAGE = 'Djangoquiz.storage_backends.StaticStorage'
+# s3 public media settings
+PUBLIC_MEDIA_LOCATION = 'media'
+MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{PUBLIC_MEDIA_LOCATION}/'
+DEFAULT_FILE_STORAGE = 'Djangoquiz.storage_backends.PublicMediaStorage'
 
+AWS_QUERYSTRING_AUTH = False
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
+'''
+Remeber that Aws s3 is not global service.
+A single bucket can have multiple objects.
+'''
+
+#To allow django-admin collectstatic to automatically put your static files in your bucket
+'''
+STATICFILES_STORAGE = 'storages.backends.s3boto3.S3StaticStorage'
+STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{AWS_LOCATION}/'
+MEDIA_URL = 's3://djangotodo/media/'
+
+
+'''
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
